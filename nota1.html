@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota: Membina Pautan Teks dan Imej</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ff4500;
+            text-decoration: underline;
+        }
+        .code {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: "Courier New", monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nota: Membina Pautan Teks dan Imej dalam Atur Cara HTML</h1>
+
+    <h2>1. Konsep Pautan (Hyperlink)</h2>
+    <p>
+        <strong>Pautan (Hyperlink):</strong> Elemen dalam laman web yang menghubungkan ke halaman lain, dokumen, imej, atau sumber luar.
+    </p>
+    <p><strong>Dua Jenis Pautan:</strong></p>
+    <ul>
+        <li><strong>Pautan Teks:</strong> Pautan menggunakan teks sebagai elemen klik.</li>
+        <li><strong>Pautan Imej:</strong> Pautan menggunakan imej sebagai elemen klik.</li>
+    </ul>
+
+    <h2>2. Membina Pautan Teks</h2>
+    <div class="code">
+        &lt;a href="URL"&gt;Teks Pautan&lt;/a&gt;
+    </div>
+    <p>Contoh:</p>
+    <div class="code">
+        &lt;a href="https://www.google.com"&gt;Lawati Google&lt;/a&gt;
+    </div>
+
+    <h2>3. Membina Pautan Imej</h2>
+    <div class="code">
+        &lt;a href="URL"&gt;<br>
+        &nbsp;&nbsp;&lt;img src="URL_IMEJ" alt="Teks Alternatif"&gt;<br>
+        &lt;/a&gt;
+    </div>
+    <p>Contoh:</p>
+    <div class="code">
+        &lt;a href="https://www.wikipedia.org"&gt;<br>
+        &nbsp;&nbsp;&lt;img src="logo.png" alt="Logo Wikipedia"&gt;<br>
+        &lt;/a&gt;
+    </div>
+
+    <h2>4. Pautan Relatif dan Mutlak</h2>
+    <p><strong>Pautan Relatif:</strong></p>
+    <div class="code">
+        &lt;a href="halaman2.html"&gt;Halaman 2&lt;/a&gt;
+    </div>
+    <p><strong>Pautan Mutlak:</strong></p>
+    <div class="code">
+        &lt;a href="https://www.example.com"&gt;Halaman Utama&lt;/a&gt;
+    </div>
+
+    <h2>5. Membuka Pautan dalam Tab Baru</h2>
+    <div class="code">
+        &lt;a href="https://www.youtube.com" target="_blank"&gt;YouTube&lt;/a&gt;
+    </div>
+
+    <h2>6. Gaya Pautan</h2>
+    <p>Pautan boleh digayakan dengan <strong>CSS</strong>:</p>
+    <div class="code">
+        a {<br>
+        &nbsp;&nbsp;color: blue;<br>
+        &nbsp;&nbsp;text-decoration: none;<br>
+        }<br>
+        a:hover {<br>
+        &nbsp;&nbsp;color: red;<br>
+        &nbsp;&nbsp;text-decoration: underline;<br>
+        }
+    </div>
+
+    <h2>7. Kepentingan dan Aplikasi</h2>
+    <p>Memudahkan navigasi dalam laman web dan membantu pengguna mengakses maklumat tambahan atau sumber luar.</p>
+</body>
+</html>
